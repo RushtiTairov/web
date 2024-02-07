@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RockstarCoffee</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+	<style>
+		*
+		{
+			margin: 0px;
+			box-sizing: border-box;
+			font-family: 'Neucha', cursive;
+		}
+		body {
+			background: #4b6584;
+		}
+		.шапка {
+			width: 60%;
+			height: 22vh;
+			border: 1px black solid;
+			margin: 0 auto;
+			background: #f7b731;
+		}
+		.лого {
+			float: left;
+			width: 15%;
+			height: 85%;
+			border-radius: 25px;
+			margin: 10px;
+		}
+		.название 
+		{
+			float: left;
+			font-size: 48px;
+			margin: 35px 50px;
+		}
+		.главный {
+			width: 60%;
+			height: 100%;
+			border: 1px black solid;
+			margin: 0 auto;
+			background: #d1d8e0;
+			display: flex;
+
+		}
+
+		.навигация
+		{
+			width: 20%;
+			height: 100%;
+			border: 1px black solid;
+			
+		}
+		.нав_ссылка
+		{
+			float: left;
+			font-size: 35px;
+			display: block;
+			height: 10%;
+			width: 100%;
+			margin: 5px 0;
+			border-bottom: 1px black solid;
+			border-top: 1px black solid;
+			padding: 15px;
+			background: white;
+			color: black;
+		}
+		.нав_ссылка:hover
+		{
+			border: 3px tomato solid;
+			color: dodgerblue;
+		}
+		.контент
+		{
+			height: 100%;
+			width: 80%;
+			border: 1px black solid;
+
+			
+		}
+		.товар
+		{
+			height: 35%;
+			width: 90%;
+			border: 1px black solid;
+			margin: 15px auto;
+			padding: 7px;
+			background: #a5b1c2;
+		}
+		.картинка_товара
+		{
+			height: 50%;
+			width: 30%;
+			float: left;
+			margin: 10px;
+		}
+		.описание
+		{
+			margin: 10px;
+			font-size: 20px;
+		}
+		.кнопка
+		{
+			float: left;
+			font-size: 20px;
+			display: block;
+			height: 18%;
+			width: 30%;
+			border: 1px black solid;
+			margin: 0 5px;
+			padding: 5px;
+			background: white;
+			color: black;
+		}
+		.кнопка:hover
+		{
+			border: 3px tomato solid;
+			color: dodgerblue;
+		}
+		.подвал
+		{
+			width: 60%;
+			height: 10%;
+			border: 1px black solid;
+			margin: 0 auto;
+			background:#d1d8e0;
+			padding: 20px 70px;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="шапка">
+		<img class="лого" src="img1.png">
+		<h1 class="название">RockstarCoffee</h1>
+	</div>
+	<div class="главный">
+		<div class="навигация">
+			<a class="нав_ссылка" href="">Главная</a>
+			<a class="нав_ссылка" href="">Заказ</a>
+			<a class="нав_ссылка" href="">Контакты</a>	
+		</div>
+		<div class="контент">
+			<div class="товар">
+				<img class="картинка_товара" src="1.jpg" alt="кофе">
+				<p class="описание">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Eaque minima asperiores repudiandae possimus dignissimos, pariatur doloremque molestiae nesciunt assumenda ex velit aliquid, labore ipsa vero. Saepe laudantium iste, explicabo earum.</p>
+				<a class="кнопка"href="">Купить</a>
+				<a class="кнопка"href="">В Корзину</a>
+			</div>
+			<div class="товар">
+				<img class="картинка_товара" src="1.jpg" alt="кофе">
+				<p class="описание">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Eaque minima asperiores repudiandae possimus dignissimos, pariatur doloremque molestiae nesciunt assumenda ex velit aliquid, labore ipsa vero. Saepe laudantium iste, explicabo earum.</p>
+				<a class="кнопка"href="">Купить</a>
+				<a class="кнопка"href="">В Корзину</a>
+			</div>
+
+
+		</div>
+	</div>
+	<div class="подвал">
+		<p>RockStar Coffee Originalc (C) - Copyright. Все права защищены от копирования.</p>
+		<p>+8-(800)-555-35-55</p>
+		<!-- ДЗ - ДОБАВИТЬ ССЫЛКИ-КАРТИНКИ НА ВК, ТГ, ЮТУБ-->
+		<a href="">
+			<img src="">
+		</a>
+	</div>
+</body>
+</html>

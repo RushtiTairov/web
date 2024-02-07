@@ -1,0 +1,51 @@
+header {
+	background: dodgerblue;
+	height: 70px;
+	margin: auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.arrow{
+	width: 64px;
+}
+
+body {
+	margin: 0;
+	baskground: powderblue;
+}
+
+main {
+	width: 80%;
+	margin: auto;
+	background: whitesmoke;
+	min-height: calc(100vh - 70px);
+	padding: 5px 15px;
+	box-sizing: border-box;
+}
+
+tabel {
+	width:100%;
+	border: 5px yellow solid;
+	border-collapse: collapse;
+}
+
+td {
+	border: 2px solid black;
+	background: lightwight;
+	text-align: center;
+	padding:  5px;
+}
+
+th {
+	border: 2px solid black;
+	background: moccasin;
+	color: black;
+}
+
+td:nth-child(1) {
+	font-weight: bold;
+}
